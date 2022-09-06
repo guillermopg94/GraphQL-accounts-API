@@ -1,0 +1,36 @@
+type Query{
+    accounts: [Account]
+    operations: [Operations]
+    persons: [Person!]!
+    promos: [Promos]
+    lastTransactions: [LastTransaction]
+}
+
+"Info Account"
+type Account{
+
+    balance: String!
+    accountCurrency: String!
+    lastTransactions: [LastTransaction!]!
+    
+    
+}
+type Operations{
+    key: String!
+}
+type Person{
+    completeName: String!
+    userName: String!
+}
+type Promos{
+    iconUrl: String
+    title: String!
+    subtitle: String
+    actionAndParams: String    
+}
+type LastTransaction{
+    category: String!
+        chargeDate: String!
+        description: String
+        amount: String!
+} 

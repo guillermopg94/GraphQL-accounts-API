@@ -1,0 +1,14 @@
+[
+    {
+        "balance": "3456",
+        "accountCurrency": "4000",
+        "lastTransactions":[
+            {
+            "category": "1",
+            "chargeDate": "02/03/2022",
+            "description": "esto es una transacción",
+            "amount": "120"
+        }
+        ] 
+    }
+]
